@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .div {
+    border: 10px ridge rgb(0, 238, 255);
+    background-color: rgb(0, 255, 191);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+    .div p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+   .article {
+    border: 10px ridge rgb(0, 255, 76);
+    background-color: rgb(183, 0, 255);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+    .article p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: right;
+}
+
+.section {
+    border: 10px ridge rgb(255, 0, 64);
+    background-color: rgb(229, 255, 0);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+    .section p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: right;
+}
+
+</style>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <h2>Difference Between Div, Article & Section Tag</h2>
+    Hi !
+   </br>
+     </br>
+    <div class="div">
+       <p> DIV : The < div > HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS.</p>
+
+        <p>This element includes the global attributes.</p>
+
+        <p>The < div > element should be used only when no other semantic element (such as < article > or < nav >) is appropriate.</p>
+    </div>
+    <br>
+    <div class="article">
+        <p>ARTICLE : The < article > HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</p>
+        <p>A given document can have multiple articles in it; for example, on a blog that shows the text of each article one after another as the reader scrolls, each post would be contained in an < article > element, possibly with one or more < section >s within.</p>
+
+    </div>
+    <br>
+    <div class="section">
+        <p>The < section > HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</p>
+        <p></p>
+    </div>
+    
+</body>
+</html>
